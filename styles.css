@@ -323,13 +323,6 @@ span {
     background-color: var(--btn-hover-bg-color);
 }
 
-/* Responsive Design for smaller screens */
-@media (max-width: 768px) {
-    .contacts form .input-box input {
-        width: 100%;
-    }
-}
-
 
 footer{
     display: flex;
