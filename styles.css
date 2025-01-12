@@ -359,3 +359,113 @@ footer{
     font-size: 2.4rem;
     color: var(--snd-bg-color);
 }
+@media (max-width: 768px) {
+    /* Header */
+    .header {
+        padding: 1.5rem 5%;
+    }
+    .navbar {
+        display: none;
+        flex-direction: column;
+        background: var(--snd-bg-color);
+        padding: 1rem;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+    }
+    #menu-icon {
+        display: block;
+        cursor: pointer;
+    }
+    .navbar a {
+        margin: 1rem 0;
+        text-align: center;
+    }
+    .navbar.active {
+        display: flex;
+    }
+
+    /* Home Section */
+    .home {
+        flex-direction: column;
+        text-align: center;
+        padding-top: 6rem;
+    }
+    .home-content {
+        padding: 0 1.5rem;
+    }
+    .home-content h1 {
+        font-size: 2.5rem;
+    }
+    .home-content h3 {
+        font-size: 1.8rem;
+    }
+    .home-content p {
+        font-size: 1.2rem;
+    }
+    .social-media a {
+        width: 3rem;
+        height: 3rem;
+        font-size: 1.5rem;
+    }
+    .home-image img {
+        width: 80%;
+        margin: 2rem 0;
+    }
+
+    /* About Section */
+    .about {
+        flex-direction: column;
+        text-align: center;
+    }
+    .about-img img {
+        width: 80%;
+        margin: 1rem 0;
+    }
+    .about-content {
+        padding: 0 1.5rem;
+    }
+    .about-content h3 {
+        font-size: 2rem;
+    }
+    .about-content p {
+        font-size: 1.2rem;
+    }
+
+    /* Skills Section */
+    .skills-container {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .skills-box {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Projects Section */
+    .project-container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    /* Contacts Section */
+    .contacts form .input-box {
+        flex-direction: column;
+    }
+    .contacts form .input-box input {
+        width: 100%;
+    }
+    .contacts form .btn {
+        width: 100%;
+    }
+
+    /* Footer */
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-iconTop {
+        margin-top: 1rem;
+    }
+}
